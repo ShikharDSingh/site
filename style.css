@@ -1,0 +1,136 @@
+body{
+    margin: 0%;
+}
+.telegram img{
+    height: 18px;
+    
+}
+.main_container{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+.head{
+    background-color: #1A1A1A;
+    justify-content: center;
+    text-align: center;
+    height: 100px;
+}
+nav{
+    background-color: #7a118d;
+    height: 150px;
+    border: none;
+}
+.telegram_button{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 50px;
+    background-color: blue;
+    height: 15px;
+    width: 250px;
+    position: absolute;
+    left: 40%;
+    color: white;
+}
+.banner{
+    width: 200px;
+    height: 500px;
+    display: flex;
+    margin: 10px;
+    padding: 5px;
+    justify-content: space-between;
+}
+.bada_container{
+    padding: 60px;
+    background-color: #1A1A1A;
+    justify-content: center;
+}
+.telediv{
+    background-color: #1A1A1A;
+    justify-content: center;
+    text-align: center;
+    border: none;
+}
+.img{
+    border-radius: 10px;
+    height: 300px;
+    width: 200px;
+}
+.img:hover{
+    zoom: 101%;
+}
+.text{
+    color: white;
+    text-decoration: none;
+    height: 30px;
+    font-size: 10px;
+}
+.navbar li{
+    list-style-type: none;
+    margin: 40px; 
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+    justify-content: space-around;
+    font-size: 25px;
+}
+.navbar a:hover{
+    color: red;
+}
+.navbar ul{
+    overflow: auto;
+}
+.banner a{
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+}
+.searchbar{
+    width: 50%;
+    height: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 10px 20px;
+}
+.searchbar input{
+    background: transparent;
+    flex: 1;
+    border: white;
+    outline: none;
+    padding: 20px 20px;
+    font-size: 20px;
+    color: #cac7ff;
+}
+.searchbar button img{
+    width: 20px;
+    height: 20px;
+}
+::placeholder{
+    color: aliceblue;
+}
+.searchbar button{
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+}
+footer{
+    background-color: #1A1A1A;
+}
+.foot{
+    background-color: #1A1A1A;
+    border: none;
+    height: 100px;
+}
+.foot li{
+    list-style-type: none;
+    display: inline;
+    margin: 20px;
+}
+.foot p{
+    color: white;
+    font-size: 25px;
+    margin-left: 50px;
+}
